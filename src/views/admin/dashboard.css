@@ -1,0 +1,281 @@
+/*++++++++++  Dashboard styling css only here ++++++++++++*/
+
+.css-10hburv-MuiTypography-root {
+  font-size: 0.9rem !important;
+}
+
+.contentPanel {
+  padding: 4vh 4vw;
+  width: 100%;
+  height: 95vh;
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.contentPanel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.contentPanel {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.Mui-Header-Custom {
+  background-color: unset !important;
+  box-shadow: none !important;
+  overflow: visible;
+}
+
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper {
+  box-shadow: 0 0 15px 0 rgb(34 41 47 / 5%);
+  border: none !important;
+  overflow: hidden;
+}
+
+.header-tab {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+  box-shadow: 0 4px 24px 0 rgb(34 41 47 / 10%);
+  border-radius: 0.428rem;
+}
+
+.left-menue-list-button {
+  margin: 0px 12px !important;
+}
+
+.onclose-active {
+  position: absolute;
+  top: 16px;
+  right: -7px;
+  font-size: 20px;
+}
+
+.tss-gm6zfk-MUIDataTableHeadCell-fixedHeader {
+  background-color: unset !important;
+}
+
+thead {
+  background-image: linear-gradient(to left, #8e2de208, #5603ff14);
+}
+
+.leftdash-container {
+  display: flex;
+}
+
+.leftbar {
+  background-color: #f30061;
+  color: #fff;
+  padding: 4vh 0 0 0;
+  width: 340px;
+  height: 100vh;
+  transition-duration: 0.6s;
+}
+
+.leftbarWrapper {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+/* .leftbarMenu {
+    margin: 0 10px;
+} */
+
+.leftbarTitle {
+  font-size: 13px;
+  color: rgb(187, 186, 186);
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.leftbarList {
+  list-style: none;
+  padding: 5px;
+}
+
+.leftbarListItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.leftbarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+}
+
+.icons-l {
+  padding: 0 7px 0 0;
+}
+
+/* .MuiListItemButton-root {
+  background-color: inherit !important;
+} */
+.nav-links {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* .active { */
+/* overflow: visible; */
+/* background-color: #fdd9e7 !important;
+  background: #fdd9e7 !important; */
+/* } */
+
+.active > div {
+  color: #fff;
+  box-shadow: 0 0 10px 1px rgb(115 103 240 / 70%);
+  border-radius: 4px;
+  background: linear-gradient(118deg, #7367f0, rgba(115, 103, 240, 0.7));
+}
+
+.active > div > div {
+  color: #fff;
+}
+
+li {
+  overflow: visible;
+}
+
+.leftscroll {
+  overflow-y: scroll;
+  height: 90vh;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.leftscroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.leftscroll {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.movie-record {
+  margin-top: 5rem;
+}
+
+[aria-label="Download CSV"] :first-child {
+  color: #7367f0;
+  font-size: 60px !important;
+}
+
+/*++++++++++ charts elements css only here ++++++++++++*/
+.carts-layout {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dashboard-charts-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cart-items {
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  border-radius: 7px;
+  margin: 0 0 0 0;
+}
+.time-dropdown {
+  font-size: 12px !important;
+}
+
+.chart-table-container {
+  width: 100%;
+  height: 544px;
+}
+
+.css-1ex1afd-MuiTableCell-root {
+  padding: 16px 32px !important;
+}
+
+.cart-filter-container {
+  display: flex;
+  align-items: center;
+}
+
+.filter-inputs {
+  padding: 0 10px;
+}
+
+.custom-tooltip {
+  display: flex;
+  padding: 0.4rem 1rem;
+  color: #333;
+  border: none !important;
+  box-shadow: 0 0 2px 0px rgb(114 103 240 / 29%);
+  border-radius: 4px;
+  /* background: linear-gradient(118deg, #7367f0c9, rgba(115, 103, 240, 0.7)); */
+  background: linear-gradient(98deg, #ffffff, rgb(254 254 254 / 60%));
+  flex-direction: column;
+}
+
+.custom-tooltip p {
+  margin: 0px;
+}
+
+.active-button {
+  background: rgb(136, 132, 216) !important;
+  color: #fff !important;
+}
+
+.timeline-button-group {
+  background-color: #fff;
+  position: absolute;
+  z-index: 1;
+  margin-left: 81px;
+}
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.custom-legend-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+span.cart-items-title {
+  padding: 0.5rem 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.334;
+  letter-spacing: 0em;
+  display: block;
+}
+.legend-item {
+  margin: 0 0.5rem;
+}
+/* .legend-item {
+  margin: 0 10px;
+} */
+/* media Query  */
+
+@media only screen and (max-width: 767px) {
+  .leftbar {
+    width: 0;
+  }
+}
